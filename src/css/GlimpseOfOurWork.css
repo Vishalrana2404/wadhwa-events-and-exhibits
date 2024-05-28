@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'Transcend';
+  src: url('./../assets//Transcend-Font-Family/Transcend-Font-Family/Transcend Semibold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+.work-gallery {
+    background-color: black;
+    padding: 60px 85px;
+    text-align: center;
+}
+
+.sub-heading {
+    color: white;    
+    font-weight: 300;
+    font-size: 32px;
+    font-family: Poppins;
+    line-height: 38.4px;
+}
+
+.main-heading {
+    color: #E1BB2B;
+    font-size: 48px;
+    line-height: 57.6px;
+    font-family: Transcend;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.glimpse-of-our-work-image-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0;
+    margin: 15px auto;
+}
+
+.glimpse-of-our-work-image-container {
+    margin: 0 4px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.glimpse-of-our-work-image-container img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.glimpse-of-our-work-image-container img:hover {
+    transform: scale(1.1);
+}
+
+.explore-button {
+    margin-top: 30px;
+    padding: 15px 25px;
+    font-size: 22px;
+    font-family: Poppins;
+    color: black;
+    background-color: #F7D489;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 26.4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.explore-button:hover{
+    background-color: #ffcc00;
+    color: white;
+}
+
+.explore-button .arrow {
+    display: inline-block; /* Ensure it's a block-level element */
+    transform: rotate(-45deg); /* Rotate the arrow */
+    transition: color 0.3s ease;
+}
+
+.explore-button:hover .arrow {
+    color: white;
+}

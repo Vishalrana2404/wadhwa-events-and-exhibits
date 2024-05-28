@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'Transcend';
+  src: url('./../assets//Transcend-Font-Family/Transcend-Font-Family/Transcend Semibold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.blog-view {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto 80px;
+    padding: 0 30px;
+  }
+
+  .blog-view-image {
+    width: 1285px;
+    height: 698px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 15px;
+  }
+  
+  .blog-view-date{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Poppins;
+    line-height: 27px;
+  }
+
+  .blog-view-heading {
+    color: white;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 57.64px;
+  }
+  
+  .blog-view-description {
+    color: white;
+    text-align: left;
+    margin: 40px 40px auto;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins;
+    line-height: 27px;
+  }
+
+  .blog-view-horizontal-line{
+    margin: 30px auto;
+    width: 70%; /* Adjust the width as needed */
+    height: 1px; /* Adjust the height as needed */
+    background-color: #FBD88D; /* Color of the line */
+  }

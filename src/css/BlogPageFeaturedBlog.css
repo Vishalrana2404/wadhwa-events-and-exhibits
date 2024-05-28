@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'Transcend';
+  src: url('./../assets//Transcend-Font-Family/Transcend-Font-Family/Transcend Semibold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* featured-section.css */
+
+
+  
+.blog-top {
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.blog-top .overlay {
+  padding: 20px;
+  border-radius: 10px;
+}
+  
+.blog-top h1 {
+  color: #E1BB2B;
+  text-transform: uppercase;
+  font-size: 68px;
+  font-weight: 700;
+  font-family: Transcend;
+  line-height: 69px;
+  margin-bottom: 20px;
+}
+
+.blog-top p {
+  color: white;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: Poppins;
+  font-weight: 300;
+  width: 630px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.blog-top .swagat-moto {
+  font-style: italic;
+  margin-top: 2px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  font-family: Poppins;
+}
+
+.featured-section {
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./../assets/featured-blog-bg.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0 10px;
+    margin: 50px 80px 50px;
+    border-radius: 10px;
+    position: relative;
+    z-index: -10;
+}
+
+.featured-section .featured-container{
+    margin-top: 200px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: white;
+    height: 100%;
+}
+
+.featured-section .featured {
+  font-size: 31px;
+  font-weight: 400;
+  font-family: Poppins;
+  line-height: 46.5px;
+  margin: 0;
+}
+
+.featured-section .featured-title {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: Poppins;
+  line-height: 57.6px;
+  margin: 0;
+}
+
+.featured-section .featured-description {
+  font-size: 28px;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 42px;
+  margin: 0;
+}
