@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'Transcend';
+  src: url('./../assets//Transcend-Font-Family/Transcend-Font-Family/Transcend Semibold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 70px 0 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between; /* Distribute sections evenly */
+    align-items: flex-start; /* Align sections to the top */
+    max-width: 1300px;
+    margin: 0 auto 70px;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    text-align: left;
+  }
+  
+  .footer-left {
+    flex: 1; /* Allows the left section to grow */
+  }
+  
+  .footer-center {
+    display: flex;
+    justify-content: space-between; /* Equal spacing between columns */
+    flex: 2; /* Center section takes up more space */
+  }
+  
+  .footer-right {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 20px;
+    flex: .5 1; /* Allows the right section to grow */
+    text-align: right;
+  }
+  
+  .footer-logo {
+    width: 200px; /* Adjust as needed */
+  }
+  
+  .footer-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: Poppins;
+    color: #ddd; /* Slightly lighter white */
+  }
+  
+  .footer-column {
+    margin: 0 20px; /* Spacing between columns */
+  }
+  
+  .footer-column-heading {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 15px;
+    color: #E1BB2B; /* Use your gold color here */
+    margin-top: 0 !important;
+  }
+  
+  .footer-link {
+    display: block;
+    color: gray;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 15px;
+    transition: transform 0.8s ease, text-decoration 0.8s ease, color 0.8s ease, font-size 0.5s ease;
+  }
+  
+  .footer-link:hover {
+    transform: translateX(10px);
+    color: white;
+    font-size: 18px;
+  }
+  
+  .footer-social-button {
+    width: 100px;
+    display: block;
+    background-color: #1f1f1f; /* Darker background for buttons */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: Poppins;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .footer-social-button i {
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  .footer-social-button:hover {
+    background-color: #333; /* Slightly lighter background on hover */
+  }
+  
+  /* Add specific styling for each social button if needed */
+  .facebook {
+    /* ... */
+  }
+  
+  .linkedin {
+    /* ... */
+  }
+  
+  .twitter {
+    /* ... */
+  }
+  
+  .instagram {
+    /* ... */
+  }
+  
+  .footer-horizontal-line {
+    border: none;
+    border-top: 1px solid #fff;
+    margin: 20px 100px;
+  }
+  
+  .copyright {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white; /* Light gray text */
+    text-align: center;
+  }

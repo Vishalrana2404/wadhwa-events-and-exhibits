@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'Transcend';
+  src: url('./../assets//Transcend-Font-Family/Transcend-Font-Family/Transcend Semibold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+.who-are-we {
+    background-color: #0c0c0c; /* Set background color */
+    color: white; /* Set text color */
+    padding: 40px 0 20px 0; /* Add padding */
+  }
+  
+  .who-are-we-container {
+    max-width: 1350px; /* Set maximum width */
+    margin: 0 auto; /* Center container */
+  }
+  
+  .section-heading {
+    text-align: center; /* Center align section heading */
+    color: #E1BB2B;
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 600;
+    font-family: Transcend;
+    margin: auto;
+  }
+  
+  .section-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px; /* Add space between section heading and content */
+  }
+  
+  .sub-heading {
+    color: white; /* Set color of sub-heading */
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    font-family: Transcend;
+    margin: auto;
+  }
+  
+  .description {
+    color: white; /* Set color of description */
+    font-size: 22px;
+    font-weight: 300;
+    font-family: Poppins;
+    line-height: 26.4px;
+    font-style: italic;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .mission .description{
+    padding-right: 200px;
+  }
+
+  .vision .description{
+    padding-left: 200px;
+  }
+  
+  .mission,
+  .vision {
+    width: calc(50% - 5px); /* Set width of each sub-section */
+    padding: 20px; /* Add padding */
+    position: relative; /* Add position relative for line positioning */
+  }
+  
+  .mission::after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    bottom: 0;
+    width: 1px;
+    background-color: white; /* Set color of vertical line */
+    right: -5px; /* Adjust right position to align with left edge of vision */
+  }
+  
+  .mission {
+    text-align: left; /* Align left */
+  }
+  
+  .vision {
+    text-align: right; /* Align right */
+  }
+
+  .numbers-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; /* Add space between existing content and numbers */
+  }
+  
+  .number-item {
+    flex: 1;
+  }
+  
+  .number-background {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 400;
+    flex-direction: column;
+  }
+  
+  .animated-number {
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 81.6px;
+    font-family: Montserrat;
+    animation: animateNumber 2s ease forwards;    
+  }
+
+  .animated-numbers-title{
+    font-size: 38px;    
+    font-weight: 500;
+    line-height: 45.6px;
+    font-family: Montserrat;
+    text-align: center;
+    width: 50%;
+  }
+  
+  @keyframes animateNumber {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

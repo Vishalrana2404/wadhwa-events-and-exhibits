@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'Transcend';
+  src: url('./../assets//Transcend-Font-Family/Transcend-Font-Family/Transcend Semibold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+.portfolio {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.portfolio-top {
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.portfolio-top .overlay {
+    padding: 20px;
+    border-radius: 10px;
+}
+  
+.portfolio-top h1 {
+    color: #E1BB2B;
+    text-transform: uppercase;
+    font-size: 68px;
+    font-weight: 700;
+    font-family: Transcend;
+    line-height: 69px;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-top p {
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: Poppins;
+    font-weight: 300;
+    width: 630px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .portfolio-top .swagat-moto {
+    font-style: italic;
+    margin-top: 2px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    font-family: Poppins;
+  }
+
+.portfolio-data {
+    background-color: #000;
+    padding: 50px 0;
+    position: relative;
+}
+
+.portfolio-image-grid {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+.portfolio-image-container {
+    display: inline-block;
+    position: relative;
+    width: 319.19px;
+    height: 384.95px;
+    transition: transform 0.5s ease-in;
+}
+
+.portfolio-image-container:hover {
+    transform: scale(1.1);
+}
+
+.portfolio-image, .portfolio-color-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.artist-name {
+    background: #FBD88D;
+    color: white;
+    padding: 5px 40px;
+    font-size: 20px;
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 4%;
+    left: -15%;
+    border-radius: 8px;
+    z-index: 10000;
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.left-tilt {
+    transform: rotate(-7.92deg);
+    position: relative;
+    top: 0px;
+}
+
+.right-tilt {
+    transform: rotate(7.92deg);
+    position: relative;
+    top: 0px;
+}
+
+.portfolio-image-hovered.right-tilt {
+    transform: rotate(20deg);
+    filter: none;
+}
+
+.portfolio-image-hovered.left-tilt {
+    transform: rotate(-20deg);
+    filter: none;
+}
+
+.portfolio-image-hovered .artist-name {
+    opacity: 1;
+    visibility: visible;
+}
+
+.portfolio-description {
+    color: #fff;
+    text-align: center;
+    width: 85%;
+    margin: 10px auto;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+
+.portfolio-tabs {
+    width: 85%;
+    margin: 10px auto;
+}
+
+.portfolio-tabs-container .tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.portfolio-tab {
+    padding: 10px 0;
+    margin-right: 90px;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    color: #FBD88D;
+    font-size: 31px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 46.5px;
+}
+
+.portfolio-tab.active {
+    border-bottom: 3px solid white;
+}
+
+.portfolio-tabs-description p {
+    padding: 5px 10px;
+}
+
+.portfolio-tabs-carousel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: 80vw;
+    margin: 20px auto;
+    align-items: start;
+    height: 1000px;
+}
+
+.vertical-row-1, .vertical-row-2, .vertical-row-3 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.portfolio-tabs-carousel-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    position: relative;
+}
+
+.portfolio-tabs-carousel-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-tabs-carousel-item .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-tabs-carousel-item:hover img {
+    transform: scale(1.1);
+}
+
+.portfolio-tabs-carousel-item:hover .dark-overlay {
+    transform: scale(1.1);
+}
+
+.caption {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    bottom: 10%;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 46.5px;
+    font-family: Poppins;
+}
+
+.portfolio-clients {
+    padding: 50px;
+  }
+  
+  .portfolio-clients h2 {
+    color: #E1BB2B;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: Transcend;
+    line-height: 57.6px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+  
+  .carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .carousel-track {
+    display: flex;
+    width: calc(150px * 10); /* Adjust width based on the number of images */
+    animation: scroll 20s linear infinite;
+  }
+  
+  .carousel-track img {
+    width: 150px; /* Ensure all images are the same width for smooth scrolling */
+    margin: 0 10px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-150px * 5 - 50px)); /* Adjust to scroll the correct amount */
+    }
+  }

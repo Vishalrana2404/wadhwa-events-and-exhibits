@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'Transcend';
+  src: url('./../assets//Transcend-Font-Family/Transcend-Font-Family/Transcend Semibold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+.gallery {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.gallery-top {
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.gallery-top .overlay {
+  padding: 20px;
+  border-radius: 10px;
+}
+  
+.gallery-top h1 {
+  color: #E1BB2B;
+  text-transform: uppercase;
+  font-size: 68px;
+  font-weight: 700;
+  font-family: Transcend;
+  line-height: 69px;
+  margin-bottom: 20px;
+}
+
+.gallery-top p {
+  color: white;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: Poppins;
+  font-weight: 300;
+  width: 630px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.gallery-top .swagat-moto {
+  font-style: italic;
+  margin-top: 2px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  font-family: Poppins;
+}
+
+.gallery-data-container {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.gallery-data-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.gallery-data-tab {
+  color: #FBD88D;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: black;
+  border: none;
+  font-size: 31px;
+  font-weight: 600;
+  font-family: Poppins;
+  line-height: 46.5px;
+}
+
+.gallery-data-tab.active {
+  border-bottom: 2px solid white; /* White border for active tab */
+}
+
+.gallery-data-tab:hover {
+  transform: scale(1.05);
+}
+
+.gallery-data-content {
+  margin: 50px auto;
+}
+
+.gallery-data-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 50px; /* 50px spacing on left and right */
+}
+
+.gallery-data-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer; /* Make items clickable */
+  text-align: center;
+  width: calc(40% - 5px); /* Two items per row with 20px gap */
+  padding: 10px;
+}
+
+.gallery-data-image{
+  margin-top: 5px;
+  margin-bottom: -35px;
+}
+
+.gallery-data-image,
+.gallery-data-video {
+  width: 630px;
+  height: 455px;
+  transition: all 0.3s ease;
+}
+
+.gallery-data-image:hover {
+  transform: scale(1.1);
+}
+
+.gallery-data-load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #FBD88D;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26.4px;
+  font-family: Poppins;
+  transition: all 0.3s ease;
+}
+
+.gallery-data-load-more:hover {
+  transform: scale(1.05);
+  background-color: #E1BB2B;
+  color: white;
+}
+
+/* Modal Styling */
+.gallery-data-modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100; /* Ensure modal is on top */
+}
+
+.gallery-data-modal-content {
+  overflow: hidden; /* Allow scrolling if content exceeds height */
+}
+
+.gallery-data-modal-image,
+.gallery-data-modal-video {
+  width: 90vw;
+  height: 90vh;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container:hover .play-button {
+  transform: translate(-50%, -50%) scale(1.8); /* Zoom in play button on hover */
+}
+
+.video-container:hover .video-overlay {
+  background-color: rgba(0, 0, 0, 0.3); /* Darken overlay on hover */
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
+  z-index: 1;
+  transition: all 0.3s ease;
+  border: 1px solid rgb(182, 175, 175);
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background: url('./../assets/play-button.png') no-repeat center center;
+  background-size: contain;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .gallery-data-flex {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .gallery-data-item {
+    width: 100%; /* Full width on small screens */
+  }
+
+  .gallery-data-image,
+  .gallery-data-video {
+    width: 100%;
+    height: auto;
+  }
+}

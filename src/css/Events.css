@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'Transcend';
+  src: url('./../assets//Transcend-Font-Family/Transcend-Font-Family/Transcend Semibold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+.events {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .events-top {
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+  }
+  
+  .events-top .overlay {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .events-top h1 {
+    color: #E1BB2B;
+    text-transform: uppercase;
+    font-size: 68px;
+    font-weight: 700;
+    font-family: Transcend;
+    line-height: 69px;
+    margin-bottom: 20px;
+  }
+
+  .events-top p {
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: Poppins;
+    font-weight: 300;
+    width: 630px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .events-top .swagat-moto{
+    font-style: italic;
+    margin-top: 2px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    font-family: Poppins;
+  }
+
+  .events-data-container {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .events-data-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .events-data-title {
+    font-size: 48px;
+    line-height: 69px;
+    font-family: Transcend;
+    font-weight: 600;
+    color: #E1BB2B;
+  }
+  
+  .events-data-description {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    font-family: Poppins;
+    width: 45%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .events-data-cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 30px;
+  }
+  
+  .events-data-card {
+    width: calc(33.33% - 60px);
+    margin-bottom: 20px;
+    border: 1px solid white;
+    text-align: left;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+
+  .events-data-card img {
+    width: 110%;
+    height: auto;
+    margin-left: -18px;
+    margin-top: -5px;
+  }
+  
+  .events-data-card-title {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-wrap: wrap;
+    width: 300px;
+    line-height: 36.4px;
+    font-weight: 700;
+    font-family: Poppins;
+  }
+  
+  .events-data-card-description {
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-wrap: wrap;
+    width: 300px;
+    line-height: 27px;
+    font-family: Poppins;
+    font-weight: 400;
+  }

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'Transcend';
+  src: url('./../assets//Transcend-Font-Family/Transcend-Font-Family/Transcend Semibold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+.featured-events{
+    background-color: black;
+    padding: 10px 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 45vw;
+}
+
+.featured-events-left .featured-events-heading{
+    color: #E1BB2B;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: Transcend;
+    line-height: 77.6px;
+    text-transform: uppercase;
+}
+
+.featured-events-left .featured-events-heading h2{
+    margin: 0;
+    line-height: 77.6px;
+}
+
+.featured-events-left .featured-events-description{
+    max-width: 500px;
+    font-size: 18px;
+    font-family: Poppins;
+    color: white;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.featured-events-left .featured-events-button{
+    margin: 50px auto;
+}
+
+.featured-events-left .featured-events-button .explore-events-button{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.4px;
+    font-family: Poppins;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #FBD88D;
+    font-weight: bold;
+    border: none;
+}
+
+.featured-events-left .featured-events-button .explore-events-button .arrow {
+    color: black;
+    font-size: 25px;
+    display: inline-block; /* Ensure it's a block-level element */
+    transform: rotate(-45deg); /* Rotate the arrow */
+    text-decoration: none !important;
+    font-weight: 100 !important;
+}
+
+.featured-events-right{
+    max-width: 55vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.featured-events-right .featured-event-image-card{
+    border: 2px solid white;
+    --r: 50px; /* adjust this value to change the curve of the cylinder */
+    width: 100px;
+    height: 350px;
+    border-radius: 100% / calc(var(--r) * 2);
+    background-size: cover;
+    background-position: center;
+    transition: --r 0.6s ease, width 0.6s ease, height 0.6s ease, border-radius 0.6s ease, background-size 0.6s ease, background-position 0.6s ease;
+}
+
+/* Hover styles for the 4th child */
+.featured-events-right .featured-event-image-card:nth-child(4) {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.featured-events-right .featured-event-image-card:hover{
+    width: 350px !important;
+    height: 350px !important;
+    border-radius: 20px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Styles for the 4th child when preceding siblings are hovered */
+.featured-events-right .featured-event-image-card:nth-child(1):hover ~ .featured-event-image-card:nth-child(4),
+.featured-events-right .featured-event-image-card:nth-child(2):hover ~ .featured-event-image-card:nth-child(4),
+.featured-events-right .featured-event-image-card:nth-child(3):hover ~ .featured-event-image-card:nth-child(4) {
+    border: 2px solid white;
+    --r: 50px; /* adjust this value to change the curve of the cylinder */
+    width: 100px;
+    height: 350px;
+    border-radius: 100% / calc(var(--r) * 2);
+    background-size: cover;
+    background-position: center;
+}
+
+.featured-events-right .featured-event-image-card .featured-event-image-card-heading{
+    display: block;
+    text-align: center;
+    margin-top: 60%;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    opacity: 0;
+}
+
+.featured-events-right .featured-event-image-card .featured-events-image-card-description{
+    display: block;
+    text-align: center;
+    margin: 5px 25px;
+    opacity: 0;
+}
+
+.featured-events-right .featured-event-image-card:nth-child(4) .featured-event-image-card-heading {
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
+.featured-events-right .featured-event-image-card:nth-child(4) .featured-events-image-card-description{
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
+.featured-events-right .featured-event-image-card:hover .featured-event-image-card-heading{
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
+.featured-events-right .featured-event-image-card:hover .featured-events-image-card-description{
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
+
+/* Styles for the 4th child when preceding siblings are hovered */
+.featured-events-right .featured-event-image-card:nth-child(1):hover ~ .featured-event-image-card:nth-child(4) .featured-event-image-card-heading ,
+.featured-events-right .featured-event-image-card:nth-child(2):hover ~ .featured-event-image-card:nth-child(4) .featured-event-image-card-heading ,
+.featured-events-right .featured-event-image-card:nth-child(3):hover ~ .featured-event-image-card:nth-child(4) .featured-event-image-card-heading  {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+/* Styles for the 4th child when preceding siblings are hovered */
+.featured-events-right .featured-event-image-card:nth-child(1):hover ~ .featured-event-image-card:nth-child(4) .featured-events-image-card-description ,
+.featured-events-right .featured-event-image-card:nth-child(2):hover ~ .featured-event-image-card:nth-child(4) .featured-events-image-card-description ,
+.featured-events-right .featured-event-image-card:nth-child(3):hover ~ .featured-event-image-card:nth-child(4) .featured-events-image-card-description  {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}

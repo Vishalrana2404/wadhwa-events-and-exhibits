@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'Transcend';
+  src: url('./../assets//Transcend-Font-Family/Transcend-Font-Family/Transcend Semibold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* App.css */
+.about-us {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-us-top {
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+  }
+  
+  .about-us-top .swagat-moto{
+    font-style: italic;
+    margin-top: 2px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    font-family: Poppins;
+  }
+
+  .about-us-top .overlay {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .about-us-top h1 {
+    color: #E1BB2B;
+    text-transform: uppercase;
+    font-size: 68px;
+    font-weight: 700;
+    font-family: Transcend;
+    line-height: 69px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-top p {
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: Poppins;
+    width: 630px;
+  }
+  
+  .about-us-desc {
+    display: flex;
+    padding: 70px 50px;
+  }
+  
+  .about-us-desc .left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-us-desc .left h2 {
+    color: #E1BB2B;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 69px;
+    font-family: Transcend;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-desc .left p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 28.8px;
+  }
+  
+  .about-us-desc .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-us-desc .right img {
+    height: 500px;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  .numbers-section {
+    display: flex;
+    padding: 50px 70px;
+  }
+  
+  .numbers-section .left {
+    flex: 1;
+  }
+  
+  .numbers-section .left img {
+    height: 600px;
+    width: 650px;
+    border-radius: 10px;
+  }
+  
+  .numbers-section .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+  }
+  
+  .numbers-section .right h2 {
+    color: #E1BB2B;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 69px;
+    margin-bottom: 20px;
+    font-family: Transcend;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .numbers-section .right p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: white;
+    line-height: 27px;
+    margin: 20px 15px 20px 40px;
+  }
+  
+  .numbers-section .numbers {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .numbers-section .number {
+    flex: 1 1 45%;
+    margin: 10px;
+  }
+  
+  .numbers-section .number h3 {
+    color: #E1BB2B;
+    font-family: Transcend;
+    font-size: 48px;
+    line-height: 69px;
+    font-weight: 600;
+    margin-left: 40px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  
+  .numbers-section .number p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: Poppins;
+    color: white;
+    margin-top: 2px;
+  }
+  
+  .renowned-names-section {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .renowned-names-section h2 {
+    color: #E1BB2B;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: Transcend;
+    line-height: 69px;
+    margin-bottom: 20px;
+  }
+  
+  .carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .carousel-track {
+    display: flex;
+    width: calc(150px * 10); /* Adjust width based on the number of images */
+    animation: scroll 20s linear infinite;
+  }
+  
+  .carousel-track img {
+    width: 144.9px; /* Ensure all images are the same width for smooth scrolling */
+    height: 48px;
+    margin: 0 10px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-150px * 5 - 50px)); /* Adjust to scroll the correct amount */
+    }
+  }
+
+  
+  .unforgettable-experiences {
+    background-color: #000;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .unforgettable-experiences .unforgettable-experiences-container {
+    max-width: 1313px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .unforgettable-experiences-title {
+    color: #E1BB2B;
+    font-family: Transcend;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 69px;
+    text-wrap: wrap;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .unforgettable-experiences-description {
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    font-family: Poppins;
+    text-wrap: wrap;
+    width: 70%;
+    margin: 40px auto;
+  }
+  
+  .unforgettable-experiences-features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .unforgettable-experiences-feature {
+    width: 100%;
+    max-width: 420px;
+    margin-bottom: 40px;
+  }
+  
+  .unforgettable-experiences-feature img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .unforgettable-experiences-feature-title {
+    color: #E1BB2B;
+    font-size: 28px;
+    font-family: Transcend;
+    font-weight: 600;
+    line-height: 69px;
+    margin-bottom: 10px;
+  }
+  
+  .unforgettable-experiences-feature-description {
+    color: #fff;
+    font-size: 18px;
+    font-family: Poppins;
+    line-height: 27px;
+    font-weight: 400;
+  }
+
+  .meet-the-team {
+    background-color: #000;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .meet-the-team-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .meet-the-team-title {
+    color: #E1BB2B;
+    font-size: 48px;
+    font-family: Transcend;
+    font-weight: 600;
+    line-height: 69px;
+    margin-bottom: 20px;
+  }
+  
+  .meet-the-team-description {
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: Poppins;
+    text-wrap: wrap;
+    width: 70%;
+    margin: 40px auto;
+  }
+  
+  .team-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    width: 24%;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .team-member img {
+    height: 400px;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .team-member-bw-image {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .team-member-color-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .team-member:hover .team-member-color-image {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  
+  .member-info {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .team-member-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .team-member-designation {
+    font-size: 14px;
+  }
