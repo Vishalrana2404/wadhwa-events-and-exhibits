@@ -4,10 +4,13 @@ import backgroundImage from './../assets/common-top-background.png'; // Ensure t
 import locationIcon from './../assets/contact-us-location-icon.png';
 import messageIcon from './../assets/contact-us-message-icon.png';
 import phoneIcon from './../assets/contact-us-phone-icon.png';
+import facebookIcon from './../assets/contact-us-facebook-social-icon.png';
+import linkedinIcon from './../assets/contact-us-linkedin-social-icon.png';
+import instagramIcon from './../assets/contact-us-instagram-social-icon.png';
 
 const ContactUs = () => {
 
-    const [highlightedInput, setHighlightedInput] = useState(null);
+    const [setHighlightedInput] = useState(null);
 
     const handleInputFocus = (event) => {
         setHighlightedInput(event.target);
@@ -38,9 +41,9 @@ const ContactUs = () => {
                 <li><img src={messageIcon} alt="Email" className="contact-us-icons" /> contact@deepailibenpatel.com</li>
                 </ul>
                 <div className="contact-us-social-icons">
-                <a href="#"><i className="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="#"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
-                <a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="www.instagram.com"><img className="contact-us-social-icon" src={instagramIcon} alt="" /></a>
+                <a href="www.linkedin.com"><img className="contact-us-social-icon" src={linkedinIcon} alt="" /></a>
+                <a href="www.facebook.com"><img className="contact-us-social-icon" src={facebookIcon} alt="" /></a>
                 </div>
                 <h2>For more <span>Information</span></h2>
                 <div className="brochure-btn-div">
