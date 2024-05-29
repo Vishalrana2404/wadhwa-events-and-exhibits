@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useMemo } from 'react';
 import './../css/WhoAreWe.css'; // Import CSS file for styling
 import ExperienceImage from './../assets/who-are-we-1.jpg'; // Import image for experience
 import EventsImage from './../assets/who-are-we-2.jpg'; // Import image for events
@@ -10,11 +10,11 @@ const WhoAreWe = () => {
     const eventsRef = useRef(null);
     const teamRef = useRef(null);
 
-    const observerOptions = {
+    const observerOptions = useMemo(() => ({
         root: null,
         rootMargin: '0px',
         threshold: 0.5, // Trigger when 50% of the element is visible
-    };
+    }), []);
 
     useEffect(() => {
         const handleIntersection = (entries) => {
