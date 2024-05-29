@@ -77,7 +77,11 @@ const NumbersSection = () => {
       const handleScroll = () => {
         const numbersSection = document.getElementById('numbers-section');
         const rect = numbersSection.getBoundingClientRect();
-        if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+        console.log(rect.top);
+        console.log(rect.bottom);
+        console.log(window.innerHeight);
+        if (rect.top >= -120 && rect.bottom <= window.innerHeight) {
+          console.log('asdfasd');
           animateNumbers();
         }
       };
