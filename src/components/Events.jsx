@@ -2,13 +2,21 @@ import React from 'react';
 import './../css/Events.css';
 import backgroundImage from './../assets/common-top-background.png'; // Ensure to replace this with the correct path
 
-import tasteofindia from './../assets/blog-1.png';
-import bollywood from './../assets/blog-1.png';
-import royalmughal from './../assets/blog-1.png';
+import tasteofindia from './../assets/event-img-12.png';
+import bollywood from './../assets/event-img-11.png';
+import royalmughal from './../assets/event-img-10.png';
 
-import mehendi from './../assets/who-are-we-1.jpg';
-import holi from './../assets/who-are-we-1.jpg';
-import housewarming from './../assets/who-are-we-1.jpg';
+import mehendi from './../assets/event-img-9.png';
+import holi from './../assets/event-img-8.png';
+import housewarming from './../assets/event-img-7.png';
+
+import wellness from './../assets/event-img-6.png';
+import developmentConference from './../assets/event-img-5.png';
+import womenLeadership from './../assets/event-img-4.png';
+
+import monsoon from './../assets/event-img-3.png';
+import spice from './../assets/event-img-2.png';
+import bollywoodStudioTour from './../assets/event-img-1.png';
 
 const Events = () => {
     return (
@@ -64,7 +72,7 @@ const EventsData = () => (
       </div>
       <div className="events-data-cards-container">
         <div className="events-data-card">
-          <img src={mehendi} alt="Mehndi Ceremony" />
+          <img src={mehndi} alt="Mehndi Ceremony" />
           <h2 className="events-data-card-title">Mehndi Ceremony</h2>
           <p className="events-data-card-description">Make your pre-wedding celebration a vibrant and joyous occasion with a meticulously planned Mehndi ceremony.</p>
         </div>
@@ -85,17 +93,17 @@ const EventsData = () => (
       </div>
       <div className="events-data-cards-container">
         <div className="events-data-card">
-          <img src={tasteofindia} alt="Wellness Summit" />
+          <img src={wellness} alt="Wellness Summit" />
           <h2 className="events-data-card-title">Wellness Summit</h2>
           <p className="events-data-card-description">Explore the ancient Indian science of Ayurveda at a thought-provoking summit.</p>
         </div>
         <div className="events-data-card">
-          <img src={bollywood} alt="Development Conference" />
+          <img src={developmentConference} alt="Development Conference" />
           <h2 className="events-data-card-title">Development Conference</h2>
           <p className="events-data-card-description">A platform for key stakeholders to discuss and implement sustainability.</p>
         </div>
         <div className="events-data-card">
-          <img src={royalmughal} alt="Women Leadership Forum" />
+          <img src={womenLeadership} alt="Women Leadership Forum" />
           <h2 className="events-data-card-title">Women Leadership Forum</h2>
           <p className="events-data-card-description">Empowering women entrepreneurs and leaders in India.</p>
         </div>
@@ -106,17 +114,17 @@ const EventsData = () => (
       </div>
       <div className="events-data-cards-container">
         <div className="events-data-card">
-          <img src={mehendi} alt="Monsoon Masquerade Ball" />
+          <img src={monsoon} alt="Monsoon Masquerade Ball" />
           <h2 className="events-data-card-title">Monsoon Masquerade Ball</h2>
           <p className="events-data-card-description">Take your guests on a unique adventure with themed experiences that showcase India's rich culture, history, and diverse flavors.</p>
         </div>
         <div className="events-data-card">
-          <img src={holi} alt="Spice Route Soiree" />
+          <img src={spice} alt="Spice Route Soiree" />
           <h2 className="events-data-card-title">Spice Route Soiree</h2>
           <p className="events-data-card-description">Embark on a culinary adventure along the ancient spice route.</p>
         </div>
         <div className="events-data-card">
-          <img src={housewarming} alt="Bollywood Studio Tour" />
+          <img src={bollywoodStudioTour} alt="Bollywood Studio Tour" />
           <h2 className="events-data-card-title">Bollywood Studio Tour</h2>
           <p className="events-data-card-description">Go behind the scenes of the vibrant Bollywood film industry with a one-of-a-kind studio tour.</p>
         </div>
