@@ -5,7 +5,7 @@ import viewBlogImage from './../assets/featured-blog-background-img.png';
 const BlogView = () => {
   return (
     <div className="blog-view">
-        <img className="blog-view-image" src={viewBlogImage} alt="Blog Image" />
+        <img className="blog-view-image" src={viewBlogImage} alt="Blog" />
         <span className="blog-view-date">01 June 2024</span>
         <h3 className="blog-view-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, obcaecati?</h3>
         <p className="blog-view-description">

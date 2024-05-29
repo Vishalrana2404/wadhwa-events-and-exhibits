@@ -95,7 +95,7 @@ const WhatWeDoPage = () => {
                 <Slider {...settings}>
                   {images[activeTab].map((image, index) => (
                     <div className="what-we-do-page-tabs-carousel-item" key={index}>
-                      <img src={image} alt={`Image ${index + 1}`} />
+                      <img src={image} alt={`What We Do ${index + 1}`} />
                     </div>
                   ))}
                 </Slider>
@@ -103,7 +103,7 @@ const WhatWeDoPage = () => {
                 <div className="static-image-container">
                   {images[activeTab].map((image, index) => (
                     <div className="what-we-do-page-tabs-carousel-item" key={index}>
-                      <img src={image} alt={`Image ${index + 1}`} />
+                      <img src={image} alt={`What We Do ${index + 1}`} />
                     </div>
                   ))}
                 </div>

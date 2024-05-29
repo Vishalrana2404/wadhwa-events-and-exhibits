@@ -1,5 +1,3 @@
-// Header.js
-
 import React, { useState, useEffect } from 'react';
 import './../css/Header.css'; // Import CSS file for styling
 import logo from './../assets/logo/WadhwaLogo.svg'; // Import logo image
@@ -12,34 +10,21 @@ const Header = () => {
   
     useEffect(() => {
       const handleScroll = () => {
-        if (window.scrollY > 0 && !isScrolled) {
+        if (window.scrollY > 0) {
             setIsScrolled(true);
             setLogoSize('small');
-        } else if (window.scrollY === 0 && isScrolled) {
+        } else {
             setIsScrolled(false);
             setLogoSize('big');
         }
       };
 
-      const handleLogoSize = () => {
-          const logoElement = document.querySelector('.logo');
-          if (logoElement) {
-              if (window.scrollY > 0 && !isScrolled) {
-                  setLogoSize('small');
-              } else {
-                  setLogoSize('big');
-              }
-          }
-      };
-  
       window.addEventListener('scroll', handleScroll);
-      window.addEventListener('scroll', handleLogoSize); // Listen for resize events
   
       return () => {
         window.removeEventListener('scroll', handleScroll);
-        window.removeEventListener('scroll', handleLogoSize); // Remove event listener on cleanup
       };
-    }, []);
+    }, [isScrolled]);
   
     const toggleNavbar = () => {
       setIsNavbarOpen(!isNavbarOpen);

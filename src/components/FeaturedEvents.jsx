@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './../css/FeaturedEvents.css'; // Import CSS file for styling
 import featuredEvent1 from './../assets/featured-events-1.png';
 import featuredEvent2 from './../assets/featured-events-2.png';

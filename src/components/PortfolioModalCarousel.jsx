@@ -19,7 +19,7 @@ const ModalCarousel = ({ isOpen, onRequestClose, images, startIndex }) => {
       <Carousel selectedItem={startIndex} showArrows={true} infiniteLoop={true}>
         {images.map((image, index) => (
           <div key={index}>
-            <img src={image} alt={`Image ${index + 1}`} />
+            <img src={image} alt={`Portfolio ${index + 1}`} />
           </div>
         ))}
       </Carousel>

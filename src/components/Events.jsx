@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './../css/Events.css';
 import backgroundImage from './../assets/common-top-background.png'; // Ensure to replace this with the correct path
 

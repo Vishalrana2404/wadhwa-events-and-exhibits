@@ -20,7 +20,7 @@ const FeaturedNews = () => {
 
         <div className="featured-news">
             <h2 className="featured-news-title">Latest News</h2>
-            <img className="featured-news-image" src={featuredNewsImage} alt="News Image" />
+            <img className="featured-news-image" src={featuredNewsImage} alt="News" />
             <span className="featured-news-date">01 June 2024</span>
             <h3 className="featured-news-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, obcaecati?</h3>
             <p className="featured-news-description">

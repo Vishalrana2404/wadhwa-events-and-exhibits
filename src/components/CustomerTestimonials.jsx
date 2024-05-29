@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import './../css/CustomerTestimonials.css'; // Import CSS file for styling
 
 import Slider from "react-slick";

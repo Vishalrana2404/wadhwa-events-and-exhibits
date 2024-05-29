@@ -77,7 +77,7 @@ const OurClients = () => {
             className={`client-img-card ${index === flippedIndex ? 'flipped' : ''}`}
             onClick={() => handleImageClick(index)}
         >
-            <img src={image} alt={`Image ${index}`} />
+            <img src={image} alt={`Client ${index}`} />
         </div>
         ));
     };

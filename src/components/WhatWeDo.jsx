@@ -33,7 +33,7 @@ const WhatWeDo = () => {
                     />
                     <h3 className="event-type-heading white">Music Events</h3>
                     <div className="know-more">
-                        <a href="#" className="yellow">Know more</a><span className="arrow">&#10145;</span>
+                        <a href="/what-we-do" className="yellow">Know more</a><span className="arrow">&#10145;</span>
                     </div>
                 </div>
                 <div className="what-we-do-image-container">
@@ -45,7 +45,7 @@ const WhatWeDo = () => {
                     />
                     <h3 className="event-type-heading white">Corporate Events</h3>
                     <div className="know-more">
-                        <a href="#" className="yellow">Know more</a><span className="arrow">&#10145;</span>
+                        <a href="/what-we-do" className="yellow">Know more</a><span className="arrow">&#10145;</span>
                     </div>
                 </div>
                 <div className="what-we-do-image-container">
@@ -57,7 +57,7 @@ const WhatWeDo = () => {
                     />
                     <h3 className="event-type-heading white">Special Events</h3>
                     <div className="know-more">
-                        <a href="#" className="yellow">Know more</a><span className="arrow">&#10145;</span>
+                        <a href="/what-we-do" className="yellow">Know more</a><span className="arrow">&#10145;</span>
                     </div>
                 </div>
                 <div className="what-we-do-image-container">
@@ -69,7 +69,7 @@ const WhatWeDo = () => {
                     />
                     <h3 className="event-type-heading white">Sport Events</h3>
                     <div className="know-more">
-                        <a href="#" className="yellow">Know more</a><span className="arrow">&#10145;</span>
+                        <a href="what-we-do" className="yellow">Know more</a><span className="arrow">&#10145;</span>
                     </div>
                 </div>
             </div>

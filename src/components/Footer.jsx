@@ -37,16 +37,16 @@ const Footer = () => {
         </div>
 
         <div className="footer-section footer-right">
-          <a href="#" className="footer-social-button facebook">
+          <a href="www.facebook.com" className="footer-social-button facebook">
             <img className="footer-icons" src={facebookIcon} alt="" /> <span className="footer-icon-name">Facebook</span>
           </a>
-          <a href="#" className="footer-social-button linkedin">
+          <a href="www.linkedin.com" className="footer-social-button linkedin">
             <img className="footer-icons" src={linkedinIcon} alt="" /> <span className="footer-icon-name">Linkedin</span>
           </a>
-          <a href="#" className="footer-social-button twitter">
+          <a href="www.twitter.com" className="footer-social-button twitter">
             <img className="footer-icons" src={twitterIcon} alt="" /> <span className="footer-icon-name">Twitter</span>
           </a>
-          <a href="#" className="footer-social-button instagram">
+          <a href="www.instagram.com" className="footer-social-button instagram">
             <img className="footer-icons" src={instagramIcon} alt="" /> <span className="footer-icon-name">Instagram</span>
           </a>
         </div>
