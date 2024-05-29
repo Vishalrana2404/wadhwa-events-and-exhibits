@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './../css/FeaturedEvents.css'; // Import CSS file for styling
-import featuredEvent1 from './../assets/what-we-do-without-hover-1.png';
-import featuredEvent2 from './../assets/what-we-do-without-hover-2.png';
-import featuredEvent3 from './../assets/what-we-do-without-hover-3.png';
-import featuredEvent4 from './../assets/what-we-do-without-hover-4.png';
+import featuredEvent1 from './../assets/featured-events-1.png';
+import featuredEvent2 from './../assets/featured-events-2.png';
+import featuredEvent3 from './../assets/featured-events-3.png';
+import featuredEvent4 from './../assets/featured-events-4.png';
 
 const FeaturedEvents = () => {
 

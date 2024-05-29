@@ -57,7 +57,7 @@
 
   .blog-view-horizontal-line{
     margin: 30px auto;
-    width: 70%; /* Adjust the width as needed */
+    width: 996px; /* Adjust the width as needed */
     height: 1px; /* Adjust the height as needed */
     background-color: #FBD88D; /* Color of the line */
   }

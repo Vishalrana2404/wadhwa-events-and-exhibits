@@ -12,7 +12,7 @@
 }
 .testimonials {
     background-color: rgb(10, 10, 10);
-    padding: 50px 20px;
+    padding: 50px 20px 0;
     text-align: center;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .carousel {
-    margin: 50px;
+    margin: 50px 50px 0;
     max-width: 100vw;
 }
 
@@ -92,8 +92,13 @@
     color: #E1BB2B;
 }
 
-.slick-dots li button:before{
+.testimonials .carousel .carousel-inner{
+    max-height: 400px;
+}
+
+.testimonials .carousel .carousel-inner .m-auto .mt-20 .slick-slider .slick-dots{
     color: white !important;
+    display: none !important;
 }
 
 .testimonials .carousel .carousel-inner .m-auto .mt-20 .slick-slider .slick-arrow.slick-next{

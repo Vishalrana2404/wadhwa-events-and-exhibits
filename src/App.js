@@ -29,7 +29,7 @@ const App = () => {
         <Route path="/blog-view" element={<BlogView />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/events" element={<Events />} />
-        <Route path="/our-services" element={<WhatWeDoPage />} />
+        <Route path="/what-we-do" element={<WhatWeDoPage />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/portfolio" element={<Portfolio />} />

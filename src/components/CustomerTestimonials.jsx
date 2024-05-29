@@ -6,12 +6,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-import userImage1 from './../assets/who-are-we-1.jpg';
-import userImage2 from './../assets/who-are-we-2.jpg';
-import userImage3 from './../assets/who-are-we-3.jpg';
-import userImage4 from './../assets/what-we-do-after-hover-1.png';
-import userImage5 from './../assets/what-we-do-after-hover-2.png';
-import userImage6 from './../assets/what-we-do-after-hover-3.png';
+import userImage1 from './../assets/customer-review-1.png';
+import userImage2 from './../assets/customer-review-2.png';
+import userImage3 from './../assets/customer-review-3.png';
+import userImage4 from './../assets/customer-review-1.png';
+import userImage5 from './../assets/customer-review-3.png';
+import userImage6 from './../assets/customer-review-2.png';
 
 const CustomerTestimonials = () => {
 

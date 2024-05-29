@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './../css/Events.css';
-import backgroundImage from './../assets/menu-background.jpg'; // Ensure to replace this with the correct path
+import backgroundImage from './../assets/common-top-background.png'; // Ensure to replace this with the correct path
 
 import tasteofindia from './../assets/blog-1.png';
 import bollywood from './../assets/blog-1.png';

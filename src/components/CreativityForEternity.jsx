@@ -13,9 +13,9 @@ function CreativityForEternity() {
                 <br />
                 Let our event management expertise bring your dreams to life.
             </p>
-            <div className="glassmorphism-buttons">
-                <button className="glassmorphism-button">Book Appointment</button>
-                <button className="glassmorphism-button">See Clients Work</button>
+            <div className="glassmorphism-links">
+                <a href="/contact-us" className="glassmorphism-link book-appointment">Book Appointment</a>
+                <a href="/events" className="glassmorphism-link">See Clients Work</a>
             </div>
             </div>
         </div>

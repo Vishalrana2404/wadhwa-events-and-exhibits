@@ -30,7 +30,6 @@
     border-radius: 6px;
     width: auto;
     transition: transform 0.3s ease;
-    border-radius: 10px;
   }
   
   .news-item:hover .news-image {

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './../css/Portfolio.css';
-import backgroundImage from './../assets/menu-background.jpg'; // Ensure to replace this with the correct path
+import backgroundImage from './../assets/common-top-background.png'; // Ensure to replace this with the correct path
 import img1 from './../assets/blog-1.png';
 import img2 from './../assets/blog-2.png';
 import img3 from './../assets/blog-3.png';
@@ -18,26 +18,38 @@ import logo2 from './../assets/blog-2.png';
 import logo3 from './../assets/blog-3.png';
 import logo4 from './../assets/featured-blog-bg.png';
 import logo5 from './../assets/what-we-do-after-hover-3.png';
+import ModalCarousel from './../components/PortfolioModalCarousel';
 
 const logos = [logo1, logo2, logo3, logo4, logo5,logo1, logo2, logo3, logo4, logo5];
 
 const Portfolio = () => {
 
     const [imageHovered, setImageHovered] = useState(null); // Store index of hovered image
+    const [activeTab, setActiveTab] = useState('Music Event');
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     const handleImageHover = (index) => {
         setImageHovered(index);
-    };
-
-    const handleImageLeave = () => {
+      };
+    
+      const handleImageLeave = () => {
         setImageHovered(null);
-    };
-
-    const [activeTab, setActiveTab] = useState('Music Event');
-
-    const handleTabClick = (tab) => {
+      };
+    
+      const handleTabClick = (tab) => {
         setActiveTab(tab);
-    };
+      };
+    
+      const handleImageClick = (index) => {
+        setCurrentImageIndex(index);
+        setIsModalOpen(true);
+      };
+    
+      const closeModal = () => {
+        setIsModalOpen(false);
+      };
+    
 
     const tabImages = {
         'Music Event': [img1, img2, img3, img4, img9, img10, img11],
@@ -128,41 +140,41 @@ const Portfolio = () => {
             </div>
             <div className="portfolio-tabs-carousel">
                 <div className="vertical-row-1">
-                    <div className="portfolio-tabs-carousel-item">
+                    <div className="portfolio-tabs-carousel-item" onClick={() => handleImageClick(tabImages[activeTab[0]])}>
                         <img src={tabImages[activeTab][0]} alt="Red brick" />
                         <div className="dark-overlay"></div>
                     </div>
                         <div className="caption">Red brick</div>
-                    <div className="portfolio-tabs-carousel-item">
+                    <div className="portfolio-tabs-carousel-item" onClick={() => handleImageClick(tabImages[activeTab[1]])}>
                         <img src={tabImages[activeTab][1]} alt="Bosto bar" />
                         <div className="dark-overlay"></div>
                     </div>
                         <div className="caption">Bosto bar</div>
                 </div>
                 <div className="vertical-row-2">
-                    <div className="portfolio-tabs-carousel-item">
+                    <div className="portfolio-tabs-carousel-item" onClick={() => handleImageClick(tabImages[activeTab[2]])}>
                         <img src={tabImages[activeTab][2]} alt="Caballer bar" />
                         <div className="dark-overlay"></div>
                     </div>
                         <div className="caption">Caballer bar</div>
-                    <div className="portfolio-tabs-carousel-item">
+                    <div className="portfolio-tabs-carousel-item" onClick={() => handleImageClick(tabImages[activeTab[3]])}>
                         <img src={tabImages[activeTab][3]} alt="Marvel Garden" />
                         <div className="dark-overlay"></div>
                     </div>
                         <div className="caption">Marvel Garden</div>
-                    <div className="portfolio-tabs-carousel-item">
+                    <div className="portfolio-tabs-carousel-item" onClick={() => handleImageClick(tabImages[activeTab[4]])}>
                         <img src={tabImages[activeTab][4]} alt="BSC bar" />
                         <div className="dark-overlay"></div>
                     </div>
                         <div className="caption">BSC bar</div>
                 </div>
                 <div className="vertical-row-3">
-                    <div className="portfolio-tabs-carousel-item">
+                    <div className="portfolio-tabs-carousel-item" onClick={() => handleImageClick(tabImages[activeTab[5]])}>
                         <img src={tabImages[activeTab][5]} alt="Phoenix mall" />
                         <div className="dark-overlay"></div>
                     </div>
                         <div className="caption">Phoenix mall</div>
-                    <div className="portfolio-tabs-carousel-item">
+                    <div className="portfolio-tabs-carousel-item" onClick={() => handleImageClick(tabImages[activeTab[6]])}>
                         <img src={tabImages[activeTab][6]} alt="South poll" />
                         <div className="dark-overlay"></div>
                     </div>
@@ -182,6 +194,12 @@ const Portfolio = () => {
                 </div>
             </div>
         </section>
+        <ModalCarousel
+            isOpen={isModalOpen}
+            onRequestClose={closeModal}
+            images={tabImages[activeTab]}
+            startIndex={currentImageIndex}
+        />
     </div>
   );
 };

@@ -46,11 +46,10 @@
     color: white;
     font-size: 24px;
     line-height: 36px;
+    font-weight: 400;
     font-family: Poppins;
-    font-weight: 300;
-    width: 630px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    width: 60%;
+    margin: 0 auto;
   }
   
   .events-top .swagat-moto{
@@ -60,6 +59,7 @@
     line-height: 36px;
     font-weight: 300;
     font-family: Poppins;
+    margin-bottom: 0;
   }
 
   .events-data-container {
@@ -87,7 +87,7 @@
     line-height: 27px;
     font-weight: 500;
     font-family: Poppins;
-    width: 45%;
+    width: 50%;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -95,13 +95,13 @@
   
   .events-data-cards-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 50px 30px;
   }
   
   .events-data-card {
-    width: calc(33.33% - 60px);
+    width: 416px;
     margin-bottom: 20px;
     border: 1px solid white;
     text-align: left;
@@ -109,13 +109,17 @@
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden;
+    height: 466px;
+    transition: transform 0.8s ease;
+  }
+  
+  .events-data-card:hover {
+    transform: scale(1.1);
   }
 
   .events-data-card img {
-    width: 110%;
-    height: auto;
-    margin-left: -18px;
-    margin-top: -5px;
+    width: 416px;
+    height: 233px;
   }
   
   .events-data-card-title {

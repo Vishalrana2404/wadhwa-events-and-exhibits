@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
 import CommonHeader from './../components/CommonHeader';
-import backgroundImage from './../assets/menu-background.jpg';
+import backgroundImage from './../assets/common-top-background.png';
 import CreativityForEternity from './CreativityForEternity';
 import Footer from './../components/Footer';
 import './../css/WhatWeDoPage.css';

@@ -42,10 +42,10 @@ const CommonHeader = () => {
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about-us">About Us</a></li>
-            <li><a href="/blogs">Blog</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/what-we-do">What We Do</a></li>
             <li><a href="/events">Events</a></li>
-            <li><a href="/our-services">Our Services</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/blogs">Blog</a></li>
             <li><a href="/news">News</a></li>
             <li><a href="/gallery">Gallery</a></li>
             <li><a href="/contact-us">Contact Us</a></li>

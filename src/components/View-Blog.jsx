@@ -1,6 +1,6 @@
 import React from 'react';
 import './../css/BlogView.css';
-import viewBlogImage from './../assets/who-are-we-2.jpg';
+import viewBlogImage from './../assets/featured-blog-background-img.png';
 
 const BlogView = () => {
   return (

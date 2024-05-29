@@ -1,7 +1,7 @@
 import React from 'react';
 import './../css/FeaturedNews.css';
 import featuredNewsImage from './../assets/who-are-we-2.jpg';
-import backgroundImage from './../assets/menu-background.jpg';
+import backgroundImage from './../assets/common-top-background.png';
 
 const FeaturedNews = () => {
   return (

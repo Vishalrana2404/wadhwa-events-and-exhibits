@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './../css/Gallery.css';
-import backgroundImage from './../assets/menu-background.jpg'; // Ensure to replace this with the correct path
+import backgroundImage from './../assets/common-top-background.png'; // Ensure to replace this with the correct path
 import img1 from './../assets/blog-1.png';
 import img2 from './../assets/blog-2.png';
 import img3 from './../assets/blog-3.png';

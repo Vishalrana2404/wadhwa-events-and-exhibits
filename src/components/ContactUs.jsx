@@ -1,6 +1,9 @@
 import React, {useState} from 'react';
 import './../css/ContactUs.css';
-import backgroundImage from './../assets/menu-background.jpg'; // Ensure to replace this with the correct path
+import backgroundImage from './../assets/common-top-background.png'; // Ensure to replace this with the correct path
+import locationIcon from './../assets/contact-us-location-icon.png';
+import messageIcon from './../assets/contact-us-message-icon.png';
+import phoneIcon from './../assets/contact-us-phone-icon.png';
 
 const ContactUs = () => {
 
@@ -30,9 +33,9 @@ const ContactUs = () => {
                 <h1>Let's talk with us</h1>
                 <p>Questions, comments, or suggestions? Simply fill in the form and we'll be in touch shortly.</p>
                 <ul>
-                <li><i className="fa fa-map-marker" aria-hidden="true"></i> 1055 Arthur ave Elk Groot, 67. New Palmas South Carolina.</li>
-                <li><i className="fa fa-phone" aria-hidden="true"></i> +1 234 678 9108 99</li>
-                <li><i className="fa fa-envelope" aria-hidden="true"></i> contact@deepailibenpatel.com</li>
+                <li><img src={locationIcon} alt="Location" className="contact-us-icons" /> 1055 Arthur ave Elk Groot, 67. New Palmas South Carolina.</li>
+                <li><img src={phoneIcon} alt="Phone" className="contact-us-icons" /> +1 234 678 9108 99</li>
+                <li><img src={messageIcon} alt="Email" className="contact-us-icons" /> contact@deepailibenpatel.com</li>
                 </ul>
                 <div className="contact-us-social-icons">
                 <a href="#"><i className="fa fa-instagram" aria-hidden="true"></i></a>

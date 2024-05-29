@@ -41,11 +41,10 @@
   color: white;
   font-size: 24px;
   line-height: 36px;
+  font-weight: 400;
   font-family: Poppins;
-  font-weight: 300;
-  width: 630px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .news-top .swagat-moto {
@@ -55,6 +54,7 @@
   line-height: 36px;
   font-weight: 300;
   font-family: Poppins;
+  margin-bottom: 0;
 }
 
 
@@ -106,16 +106,15 @@
   .featured-news-description {
     color: white;
     text-align: left;
-    font-size: 18px;
     font-weight: 300;
-    line-height: 28px;
+    font-size: 28px;
     font-family: Poppins;
     line-height: 42px;
   }
 
   .featured-news-horizontal-line{
     margin: 30px auto;
-    width: 70%; /* Adjust the width as needed */
+    width: 996px; /* Adjust the width as needed */
     height: 1px; /* Adjust the height as needed */
     background-color: #FBD88D; /* Color of the line */
   }

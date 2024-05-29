@@ -11,7 +11,7 @@
   font-style: normal;
 }
 .who-are-we {
-    background-color: #0c0c0c; /* Set background color */
+    background-color: black; /* Set background color */
     color: white; /* Set text color */
     padding: 40px 0 20px 0; /* Add padding */
   }
@@ -58,11 +58,13 @@
   }
 
   .mission .description{
-    padding-right: 200px;
+    width: 80%;
+    margin-left: 0;
   }
 
   .vision .description{
-    padding-left: 200px;
+    width: 80%;
+    margin-right: 0;
   }
   
   .mission,

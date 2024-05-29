@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import './../css/OurClients.css'; // Import CSS file for styling
-import ourClients1 from './../assets/what-we-do-without-hover-1.png';
-import ourClients2 from './../assets/what-we-do-without-hover-2.png';
-import ourClients3 from './../assets/what-we-do-without-hover-3.png';
-import ourClients4 from './../assets/what-we-do-without-hover-4.png';
-import ourClients5 from './../assets/demo.jpg';
-import ourClients6 from './../assets/menu-background.jpg';
-import ourClients7 from './../assets/who-are-we-3.jpg';
-import ourClients8 from './../assets/who-are-we-2.jpg';
-import ourClients9 from './../assets/who-are-we-1.jpg';
-import ourClients10 from './../assets/what-we-do-bg-1.png';
+import ourClients1 from './../assets/our-clients-1.png';
+import ourClients2 from './../assets/our-clients-2.png';
+import ourClients3 from './../assets/our-clients-3.png';
+import ourClients4 from './../assets/our-clients-4.png';
+import ourClients5 from './../assets/our-clients-5.png';
+import ourClients6 from './../assets/our-clients-6.png';
+import ourClients7 from './../assets/our-clients-5.png';
+import ourClients8 from './../assets/our-clients-2.png';
+import ourClients9 from './../assets/our-clients-1.png';
+import ourClients10 from './../assets/our-clients-4.png';
 
 
 const images = [

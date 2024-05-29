@@ -94,10 +94,11 @@
   
   .footer-social-button {
     width: 100px;
-    display: block;
     background-color: #1f1f1f; /* Darker background for buttons */
     color: #fff;
     padding: 10px 20px;
+    display: flex;
+    align-items: center;
     border-radius: 5px;
     margin-bottom: 10px;
     text-decoration: none;
@@ -106,31 +107,24 @@
     font-weight: 500;
     font-family: Poppins;
     transition: background-color 0.3s ease; /* Smooth transition effect */
+    width: 110px;
   }
   
   .footer-social-button i {
     margin-right: 10px; /* Space between icon and text */
   }
+
+  .footer-icons{
+    width: 20px;
+    height: 16.25px;
+  }
+
+  .footer-icon-name{
+    margin-left: 20px;
+  }
   
   .footer-social-button:hover {
-    background-color: #333; /* Slightly lighter background on hover */
-  }
-  
-  /* Add specific styling for each social button if needed */
-  .facebook {
-    /* ... */
-  }
-  
-  .linkedin {
-    /* ... */
-  }
-  
-  .twitter {
-    /* ... */
-  }
-  
-  .instagram {
-    /* ... */
+    background-color: #0E76A8;
   }
   
   .footer-horizontal-line {

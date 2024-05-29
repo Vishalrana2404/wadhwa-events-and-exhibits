@@ -1,6 +1,6 @@
 import React from 'react';
 import './../css/BlogPageFeaturedBlog.css';
-import backgroundImage from './../assets/menu-background.jpg';
+import backgroundImage from './../assets/common-top-background.png';
 
 const BlogPageFeaturedBlog = () => {
     return (

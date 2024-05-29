@@ -44,11 +44,10 @@
   color: white;
   font-size: 24px;
   line-height: 36px;
+  font-weight: 400;
   font-family: Poppins;
-  font-weight: 300;
-  width: 630px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .blog-top .swagat-moto {
@@ -58,27 +57,30 @@
   line-height: 36px;
   font-weight: 300;
   font-family: Poppins;
+  margin-bottom: 0;
 }
 
 .featured-section {
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./../assets/featured-blog-bg.png');
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./../assets/featured-blog-background-img.png');
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 100px 0 10px;
-    margin: 50px 80px 50px;
-    border-radius: 10px;
+    width: 1344px;
+    height: 709px;
+    border-radius: 15px;
+    margin: 50px 70px 50px;
     position: relative;
     z-index: -10;
 }
 
 .featured-section .featured-container{
-    margin-top: 200px;
-    margin-left: 80px;
-    margin-right: 80px;
+    position: relative;
+    top: 300px;
+    margin-left: 45px;
     color: white;
-    height: 100%;
+    width: 1084px;
+    height: 409.32px;
 }
 
 .featured-section .featured {

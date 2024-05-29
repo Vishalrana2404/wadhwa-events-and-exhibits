@@ -46,11 +46,10 @@
   color: white;
   font-size: 24px;
   line-height: 36px;
+  font-weight: 400;
   font-family: Poppins;
-  font-weight: 300;
-  width: 630px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .gallery-top .swagat-moto {
@@ -60,6 +59,7 @@
   line-height: 36px;
   font-weight: 300;
   font-family: Poppins;
+  margin-bottom: 0;
 }
 
 .gallery-data-container {
@@ -114,8 +114,7 @@
   overflow: hidden;
   cursor: pointer; /* Make items clickable */
   text-align: center;
-  width: calc(40% - 5px); /* Two items per row with 20px gap */
-  padding: 10px;
+  padding: 2px;
 }
 
 .gallery-data-image{
