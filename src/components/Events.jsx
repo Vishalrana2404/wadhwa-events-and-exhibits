@@ -72,7 +72,7 @@ const EventsData = () => (
       </div>
       <div className="events-data-cards-container">
         <div className="events-data-card">
-          <img src={mehndi} alt="Mehndi Ceremony" />
+          <img src={mehendi} alt="Mehndi Ceremony" />
           <h2 className="events-data-card-title">Mehndi Ceremony</h2>
           <p className="events-data-card-description">Make your pre-wedding celebration a vibrant and joyous occasion with a meticulously planned Mehndi ceremony.</p>
         </div>
